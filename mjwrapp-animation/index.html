@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation Example</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+            position: relative;
+            animation: move 4s infinite; /* Name, duration, repeat */
+        }
+
+        /* Define the animation */
+        @keyframes move {
+            0% { left: 0px; }
+            50% { left: 200px; }
+            100% { left: 0px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
